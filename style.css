@@ -1,0 +1,128 @@
+#background{
+    background: url(coffee.jpg);
+    padding:20px;
+    height:100vh;
+    
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1.5px dashed white;
+    padding:10px;
+}
+span{
+    color:white;
+    font-size: 1.5rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#coffee{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 6rem;
+    text-align: center;
+    letter-spacing: 10px;
+   
+}
+h3{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#button{
+    width: 8rem;
+    height:3rem;
+    color:white;
+    border:1px solid white;
+    align-items: center;
+    font-size: 22px;
+}
+
+#button:hover{
+    background-color: antiquewhite;
+}
+
+p{
+    display: inline;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+#second_part{
+    padding-top:80px;
+}
+
+#cafe_menu{
+    display: flex;
+    flex-wrap: wrap;
+     align-items: center;
+    justify-content: space-around;
+    padding:40px;
+}
+
+#espresso_img{
+    border-radius: 20px;
+    display: flex  
+}
+#third_part{
+    background:url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_1280.jpg) ;
+    background-size: cover;
+    height: 100vh;
+}
+
+    
+
+
+#third_part
+{
+   
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+.pics{
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 30px;
+   align-items: center;
+
+   
+}
+#img{
+    border-radius: 30px;
+}
+#forth_part{
+    background: url(bg.jpg );
+    background-size: cover;
+    height: 100vh;
+    
+}
+#logo{
+    padding-top: 200px;
+    
+
+}
+
+@media screen and (max-width:1220px){
+
+    #coffee_menu{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #pics{
+        display: grid;
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+}
